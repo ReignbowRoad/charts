@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   http-echo:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-06-05T16:03:26.936064+01:00"
+    description: A Helm chart for Kubernetes
+    digest: e45a3f0f860defb2bbe16079c07a2731198f1cb972eb1ae0d9071a444aca293e
+    name: http-echo
+    type: application
+    urls:
+    - https://reignbowroad.github.com/charts/http-echo-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 0.2.3
-    created: "2024-06-05T15:46:56.803843+01:00"
+    created: "2024-06-05T16:03:26.935765+01:00"
     description: A Helm chart for Kubernetes
     digest: cb574f3afd74f5b6ecdedaadfece43f0048443cd8cdd2fbf24739bae4e9fd5ae
     name: http-echo
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://reignbowroad.github.com/charts/http-echo-0.2.3.tgz
     version: 0.2.3
-generated: "2024-06-05T15:46:56.803359+01:00"
+generated: "2024-06-05T16:03:26.935331+01:00"
