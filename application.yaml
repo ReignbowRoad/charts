@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+  name: http-echo
+  namespace: argocd
+spec:
+  destination:
+    namespace: ip3a-cag
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    chart: http-echo
+    repoURL: https://reignbowroad.github.io/charts
+    targetRevision: 1.*.*
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
