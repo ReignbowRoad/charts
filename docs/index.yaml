@@ -9,7 +9,7 @@ entries:
     name: http-echo
     type: application
     urls:
-    - https://reignbowroad.github.io/http-echo-1.0.0.tgz
+    - https://reignbowroad.github.io/charts/http-echo-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.2.3
@@ -19,6 +19,6 @@ entries:
     name: http-echo
     type: application
     urls:
-    - https://reignbowroad.github.io/http-echo-0.2.3.tgz
+    - https://reignbowroad.github.io/charts/http-echo-0.2.3.tgz
     version: 0.2.3
 generated: "2024-06-05T16:03:26.935331+01:00"
