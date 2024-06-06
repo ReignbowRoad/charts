@@ -13,7 +13,7 @@ spec:
   source:
     chart: http-echo
     repoURL: https://reignbowroad.github.io/charts
-    targetRevision: 1.*.*
+    targetRevision: '*'
   syncPolicy:
     automated:
       prune: true
